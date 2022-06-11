@@ -7,9 +7,7 @@ import Home from "./pages/Home";
 
 export default function Tela() {
     return(<>
-        <header>
-            <NavBar />
-        </header>
+    
         <main>
             <Routes>
                 <Route exact path="/" element= {<Home />}/>

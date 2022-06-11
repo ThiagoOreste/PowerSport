@@ -3,10 +3,12 @@ import './css/Home.css';
 import Imgfundo from '../../assets/pista.jpg';
 import Imgtexto from '../../assets/text.png';
 import Sport from '../../assets/logogrande2.PNG';
-
+import NavBar from "../../component/NavBar";
 
 const Home = () =>{
     return(<>
+
+        <NavBar />
         <div class="img">
             <img src={Imgfundo} />
             <div>
