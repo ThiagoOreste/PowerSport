@@ -5,7 +5,6 @@ import Acess from '../../component/LoginAcess';
 import { Link } from 'react-router-dom';
 
 
-
 const Login = () => {
     return(
         <div className='container'>
@@ -31,7 +30,7 @@ const Login = () => {
                         </div>
                     </div>
                     
-                    <a href='#' className='login-form-recovery'>RECUPERE SUA SENHA AQUI</a>
+                    <Link exact to='/recup'><a href='#' className='login-form-recovery'>RECUPERE SUA SENHA AQUI</a></Link>
                 </div>
             </div>
         
